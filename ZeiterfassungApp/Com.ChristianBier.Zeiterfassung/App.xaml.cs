@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Zeiterfassung
+namespace Com.ChristianBier.Zeiterfassung
 {
     /// <summary>
     /// Interaktionslogik für "App.xaml"

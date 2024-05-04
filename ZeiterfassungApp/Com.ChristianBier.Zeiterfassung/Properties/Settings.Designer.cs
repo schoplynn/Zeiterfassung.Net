@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Zeiterfassung.Properties
+namespace Com.ChristianBier.Zeiterfassung.Properties
 {
 
 

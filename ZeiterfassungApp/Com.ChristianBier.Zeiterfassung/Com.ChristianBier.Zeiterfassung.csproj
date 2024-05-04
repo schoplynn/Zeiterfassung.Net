@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6573F7C-11C6-427E-9F96-160EC4B19164}</ProjectGuid>
+    <ProjectGuid>{40C3CBBB-71E0-4087-956F-F109DF86E727}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Zeiterfassung</RootNamespace>
-    <AssemblyName>Zeiterfassung</AssemblyName>
+    <RootNamespace>Com.ChristianBier.Zeiterfassung</RootNamespace>
+    <AssemblyName>Com.ChristianBier.Zeiterfassung</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />

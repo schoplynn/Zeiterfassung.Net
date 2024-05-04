@@ -1,0 +1,30 @@
+﻿<Window x:Class="Com.ChristianBier.Zeiterfassung.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Com.ChristianBier.Zeiterfassung"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Ribbon DockPanel.Dock="Top" SelectedIndex="1">
+            <RibbonTab Header="Erfassung">
+                <RibbonGroup Header="Erfassung">
+                    <RibbonButton Label="Eintrag hinzufügen"/>
+                    <RibbonButton Label="Eintrag bearbeiten"/>
+                    <RibbonButton Label="Eintrag löschen"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Verwaltung">
+                <RibbonGroup Header="Archiv">
+                    <RibbonButton Label="Neu"/>
+                    <RibbonButton Label="Öffnen"/>
+                </RibbonGroup>
+            </RibbonTab>
+        </Ribbon>
+
+        <DataGrid>
+        </DataGrid>
+
+    </DockPanel>
+</Window>
