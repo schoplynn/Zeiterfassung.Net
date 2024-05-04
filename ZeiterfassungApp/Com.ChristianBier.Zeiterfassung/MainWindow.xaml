@@ -10,15 +10,15 @@
         <Ribbon DockPanel.Dock="Top" SelectedIndex="1">
             <RibbonTab Header="Erfassung">
                 <RibbonGroup Header="Erfassung">
-                    <RibbonButton Label="Eintrag hinzufügen"/>
-                    <RibbonButton Label="Eintrag bearbeiten"/>
-                    <RibbonButton Label="Eintrag löschen"/>
+                    <RibbonButton Label="Eintrag hinzufügen" LargeImageSource="Icons/File.ico"/>
+                    <RibbonButton Label="Eintrag bearbeiten" LargeImageSource="Icons/EditCursor.ico"/>
+                    <RibbonButton Label="Eintrag löschen" LargeImageSource="Icons/x.ico"/>
                 </RibbonGroup>
             </RibbonTab>
             <RibbonTab Header="Verwaltung">
                 <RibbonGroup Header="Archiv">
-                    <RibbonButton Label="Neu"/>
-                    <RibbonButton Label="Öffnen"/>
+                    <RibbonButton Label="Neu" LargeImageSource="Icons/File.ico"/>
+                    <RibbonButton Label="Öffnen" LargeImageSource="Icons/OpenFolder.ico"/>
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>

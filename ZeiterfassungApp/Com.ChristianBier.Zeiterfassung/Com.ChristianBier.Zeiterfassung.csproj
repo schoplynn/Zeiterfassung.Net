@@ -95,5 +95,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Langs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\EditCursor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\File.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\OpenFolder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\X.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
