@@ -3,23 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Com.ChristianBier.Zeiterfassung"
         xmlns:lang="clr-namespace:Com.ChristianBier.Zeiterfassung.Langs"
+        xmlns:local="clr-namespace:Com.ChristianBier.Zeiterfassung"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <DockPanel>
         <Ribbon DockPanel.Dock="Top" SelectedIndex="0">
-            <RibbonTab Header="Erfassung">
-                <RibbonGroup Header="Erfassung">
-                    <RibbonButton Label"Eintrag hinzufügen" LargeImageSource="Icons/File.ico"/>
-                    <RibbonButton Label="Eintrag bearbeiten" LargeImageSource="Icons/EditCursor.ico"/>
-                    <RibbonButton Label="Eintrag löschen" LargeImageSource="Icons/x.ico"/>
+            <RibbonTab Header="{x:Static lang:Strings.RibbonTabErfassungName}">
+                <RibbonGroup Header="{x:Static lang:Strings.RibbonGroupEntryName}">
+                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryAdd}" LargeImageSource="Icons/File.ico"/>
+                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryEdit}" LargeImageSource="Icons/EditCursor.ico"/>
+                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryDelete}" LargeImageSource="Icons/x.ico"/>
                 </RibbonGroup>
             </RibbonTab>
-            <RibbonTab Header="Verwaltung">
-                <RibbonGroup Header="Archiv">
-                    <RibbonButton Label="Neu" LargeImageSource="Icons/File.ico"/>
-                    <RibbonButton Label="Öffnen" LargeImageSource="Icons/OpenFolder.ico"/>
+            <RibbonTab Header="{x:Static lang:Strings.RibbonTabVerwaltungName}">
+                <RibbonGroup Header="{x:Static lang:Strings.RibbonGroupArchiveName}">
+                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnArchiveNew}" LargeImageSource="Icons/File.ico"/>
+                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnArchiveOpen}" LargeImageSource="Icons/OpenFolder.ico"/>
                 </RibbonGroup>
             </RibbonTab>
         </Ribbon>

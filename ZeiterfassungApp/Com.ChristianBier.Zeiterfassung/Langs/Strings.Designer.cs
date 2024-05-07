@@ -22,7 +22,7 @@ namespace Com.ChristianBier.Zeiterfassung.Langs {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Strings {
+    public class Strings {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Com.ChristianBier.Zeiterfassung.Langs {
         ///   Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Com.ChristianBier.Zeiterfassung.Langs.Strings", typeof(Strings).Assembly);
@@ -51,7 +51,7 @@ namespace Com.ChristianBier.Zeiterfassung.Langs {
         ///   Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,11 +61,83 @@ namespace Com.ChristianBier.Zeiterfassung.Langs {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Neu ähnelt.
+        /// </summary>
+        public static string RibbonBtnArchiveNew {
+            get {
+                return ResourceManager.GetString("RibbonBtnArchiveNew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Öffnen ähnelt.
+        /// </summary>
+        public static string RibbonBtnArchiveOpen {
+            get {
+                return ResourceManager.GetString("RibbonBtnArchiveOpen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Eintrag hinzufügen ähnelt.
         /// </summary>
-        internal static string RibbonBtnEntryAdd {
+        public static string RibbonBtnEntryAdd {
             get {
                 return ResourceManager.GetString("RibbonBtnEntryAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Eintrag löschen ähnelt.
+        /// </summary>
+        public static string RibbonBtnEntryDelete {
+            get {
+                return ResourceManager.GetString("RibbonBtnEntryDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Eintrag bearbeiten ähnelt.
+        /// </summary>
+        public static string RibbonBtnEntryEdit {
+            get {
+                return ResourceManager.GetString("RibbonBtnEntryEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Archive ähnelt.
+        /// </summary>
+        public static string RibbonGroupArchiveName {
+            get {
+                return ResourceManager.GetString("RibbonGroupArchiveName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Eintrag ähnelt.
+        /// </summary>
+        public static string RibbonGroupEntryName {
+            get {
+                return ResourceManager.GetString("RibbonGroupEntryName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Erfassung ähnelt.
+        /// </summary>
+        public static string RibbonTabErfassungName {
+            get {
+                return ResourceManager.GetString("RibbonTabErfassungName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Verwaltung ähnelt.
+        /// </summary>
+        public static string RibbonTabVerwaltungName {
+            get {
+                return ResourceManager.GetString("RibbonTabVerwaltungName", resourceCulture);
             }
         }
     }

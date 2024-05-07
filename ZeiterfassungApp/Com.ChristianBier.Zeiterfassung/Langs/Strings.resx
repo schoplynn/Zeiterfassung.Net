@@ -117,7 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RibbonBtnArchiveNew" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="RibbonBtnArchiveOpen" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
   <data name="RibbonBtnEntryAdd" xml:space="preserve">
     <value>Eintrag hinzufügen</value>
+  </data>
+  <data name="RibbonBtnEntryDelete" xml:space="preserve">
+    <value>Eintrag löschen</value>
+  </data>
+  <data name="RibbonBtnEntryEdit" xml:space="preserve">
+    <value>Eintrag bearbeiten</value>
+  </data>
+  <data name="RibbonGroupArchiveName" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="RibbonGroupEntryName" xml:space="preserve">
+    <value>Eintrag</value>
+  </data>
+  <data name="RibbonTabErfassungName" xml:space="preserve">
+    <value>Erfassung</value>
+  </data>
+  <data name="RibbonTabVerwaltungName" xml:space="preserve">
+    <value>Verwaltung</value>
   </data>
 </root>
