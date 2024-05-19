@@ -146,6 +146,7 @@
 //}
 
 
+using Com.ChristianBier.Zeiterfassung.Data.Models;
 using Com.ChristianBier.Zeiterfassung.Data.Services;
 
 var entries = SqliteDataAccessService.LoadEintraege();
@@ -160,7 +161,17 @@ foreach (var e in entries)
     Console.WriteLine($"Und folgendes getan:\r\n{e.Text}");
     Console.WriteLine($"-----------------");
     timetotal += e.Dauer;
+    e.Text = String.Concat(e.Text, " ", "Dieser Text wurde hinzugefügt");
+    SqliteDataAccessService.SaveEintag(e);
 }
+
+Eintrag newE = new Eintrag();
+newE.Date = DateTime.Now;
+newE.TimeStart = DateTime.Now;
+newE.TimeEnd = DateTime.Now.AddMinutes(67);
+newE.Text = "Habe TV geschaut";
+SqliteDataAccessService.SaveEintag(newE);
+
 Console.WriteLine("====================");
 Console.WriteLine($"Gesamtzeit: {timetotal.Hours} Stunden und {timetotal.Minutes} Minuten");
 Console.ReadLine();
