@@ -11,7 +11,7 @@
         <Ribbon DockPanel.Dock="Top" SelectedIndex="0">
             <RibbonTab Header="{x:Static lang:Strings.RibbonTabErfassungName}">
                 <RibbonGroup Header="{x:Static lang:Strings.RibbonGroupEntryName}">
-                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryAdd}" LargeImageSource="Icons/File.ico"/>
+                    <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryAdd}" LargeImageSource="Icons/File.ico" Click="RibbonButtonEntryAdd_Click"/>
                     <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryEdit}" LargeImageSource="Icons/EditCursor.ico"/>
                     <RibbonButton Label="{x:Static lang:Strings.RibbonBtnEntryDelete}" LargeImageSource="Icons/x.ico"/>
                 </RibbonGroup>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Com.ChristianBier.Zeiterfassung.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "--show"
+    }
+  }
+}

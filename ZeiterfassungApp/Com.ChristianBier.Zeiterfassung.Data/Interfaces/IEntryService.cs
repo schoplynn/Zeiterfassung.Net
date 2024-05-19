@@ -11,5 +11,6 @@ namespace Com.ChristianBier.Zeiterfassung.Data.Interfaces
     public interface IEntryService
     {
         ObservableCollection<Eintrag> GetLast30Entries();
+        bool Save(Eintrag entry);
     }
 }

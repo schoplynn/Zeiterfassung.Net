@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModels\EntryDetailWindowViewModel.cs" />
+    <Compile Include="Views\EntryDetailWindow.xaml.cs">
+      <DependentUpon>EntryDetailWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Langs\Strings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -67,6 +71,10 @@
       <DependentUpon>Strings.en.resx</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Page Include="Views\EntryDetailWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -115,7 +123,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
+    <ProjectReference Include="..\Com.ChristianBier.Zeiterfassung.Data\Com.ChristianBier.Zeiterfassung.Data.csproj">
+      <Project>{017de6a9-56a9-4a5b-84dc-affc8fa372c4}</Project>
+      <Name>Com.ChristianBier.Zeiterfassung.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icons\EditCursor.ico" />
